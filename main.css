@@ -138,7 +138,7 @@ body {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     left: 630px;
     top: 200px;
-    box-shadow: 4vw 9vw 20px -60px #0000009c;
+    box-shadow: 5vw 5vw 30px -60px #0000009c;
     z-index: 3;
 }
 
@@ -148,12 +148,14 @@ body {
     width: 360px;
     height: 140px;
     border-radius: 60% 50% 50% 100% / 80% 50% 70% 40%;
-    background: linear-gradient(to bottom, #F9E79F, #9A7D0A); 
+    background: linear-gradient(to bottom, #F9E79F, #9A7D0A);
     left: 250px;
     top: 420px;
     z-index: 3;
-    box-shadow: 3vw 6vw 30px -40px #0000009c;
+    box-shadow: 3vw 4vw 30px -40px #0000009c;
     }
+
+
 
 .pumpkin3{ 
     display: block;
