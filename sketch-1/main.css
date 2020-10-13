@@ -1,0 +1,173 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color:#2E4053 ;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+.table {
+    width: 905px;
+    left: 10px;
+    height: 100px;
+    border: 50px solid transparent;
+    border-bottom: 20px solid #D1CBB2;
+    position: absolute;
+    top: 300px;
+    }
+.table:after {
+    content: '';
+    position: absolute;
+    left: -56px;
+    top: 70px;
+    width: 995px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top: 180px solid #D1CBB2;
+    }
+}
+
+
+
+.vase {
+	height: 420px;
+    width: 160px;
+    background: linear-gradient(to bottom, #ADD8E6,#b9e8cc,#ADD8E6);
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 0px;
+    left: 410px;
+    z-index: 3;
+
+} 
+
+.wax1{
+    width: 40px;
+    height: 90px;
+    background-color: #FFE4B5;
+    position: absolute;
+    top: 65px;
+    left: 185px;
+    z-index: 1;
+}
+
+.candle1{
+	position: relative;
+    margin-top: -63px;
+    width: 50px;
+    height: 150px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    margin-right: 100px;
+    margin-left: 180px;
+    top: 150px;
+    z-index: 3;
+
+}
+
+.candlestick1{
+	width: 15px;
+    height: 290px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    z-index: 1;
+}
+.candlebottom{    
+	width: 200px;
+    height: 40px;
+    border-radius: 100px / 50px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    position: absolute;
+    top: 525px;
+    left: 70px;
+    z-index: 1;
+}
+
+.wax2{
+    width: 40px;
+    height: 90px;
+    background-color: #FFE4B5;
+    position: absolute;
+    top: 2px;
+    left: 640px;
+    z-index: 1;;
+}
+
+.candle2{
+	position: relative;
+    top: 100px;
+    width: 50px;
+    height: 150px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    left: 635px;
+    top: -60px;
+    z-index: 3;
+
+}
+
+.candlestick2{
+	width: 15px;
+    height: 290px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    z-index: 1;
+
+}
+
+.pumpkin2{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, #DC7633, #6E2C00);
+    position: absolute;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    left: 630px;
+    top: 200px;
+    box-shadow: 4vw 9vw 20px -60px #0000009c;
+    z-index: 3;
+}
+
+.pumpkin{ 
+    display: block;
+    position: absolute;
+    width: 360px;
+    height: 140px;
+    border-radius: 60% 50% 50% 100% / 80% 50% 70% 40%;
+    background: linear-gradient(to bottom, #F9E79F, #9A7D0A); 
+    left: 250px;
+    top: 420px;
+    z-index: 3;
+    box-shadow: 3vw 6vw 30px -40px #0000009c;
+    }
+
+.pumpkin3{ 
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 140px;
+    border-radius: 60% 50% 50% 100% / 80% 50% 70% 40%;
+    background: linear-gradient(to bottom, #FAD7A0, #D4EFDF);
+    left: 410px;
+    top: 350px;
+    z-index: 1;
+    box-shadow: 6vw 2vw 30px -40px #0000009c;
+    }
+
+	
+}
+
